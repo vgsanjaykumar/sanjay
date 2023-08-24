@@ -1,0 +1,72 @@
+*{
+    font-family: 'Lora', serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.banner{
+    height: 80vh;
+}
+
+.banner img{
+    height: 80vh;
+    object-fit: cover;
+}
+
+.banner ::after{
+    content: ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.553);
+}
+
+.banner-caption{
+    z-index: 2;
+    top: 45%;
+}
+
+.card img{
+    height: 400px;
+}
+
+
+
+.feetback{
+    height: 65vh;
+    width: 100%;
+    background-image: url(./img/background.JPG);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.featback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.438);
+    text-align: center;
+    backdrop-filter: blur(4px);
+}
+
+
+.subcribe{
+    height: 45vh;
+    width: 100%;
+    
+    background-image: url(./img/sub.JPG);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.form-control{
+    width: 50%;
+}
